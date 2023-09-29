@@ -16,19 +16,19 @@ hostname = h5.if.qidian.com
 📦BoxJs地址:
 https://raw.githubusercontent.com/fangshaok/rule/main/adek.boxjs.json
 @params: 
-    "qd_session"
-    "qd_session_2"
-    "qd_taskId"
-    "qd_timeout": 间隔时间, 默认20s, 可以在BoxJs中修改为0, 不怕黑号可以不间隔
+    "qd1_session"
+    "qd1_session_2"
+    "qd1_taskId"
+    "qd1_timeout": 间隔时间, 默认20s, 可以在BoxJs中修改为0, 不怕黑号可以不间隔
     
 */
 const $ = new Env("起点读书1");
 
-$.taskId = $.getdata("qd_taskId");
-$.taskId_2 = $.getdata("qd_taskId_2");
-$.session = $.getdata("qd_session");
-$.session_2 = $.getdata("qd_session_2");
-$.timeout = $.getdata("qd_timeout") ? $.getdata("qd_timeout") : 20;
+$.taskId = $.getdata("qd1_taskId");
+$.taskId_2 = $.getdata("qd1_taskId_2");
+$.session = $.getdata("qd1_session");
+$.session_2 = $.getdata("qd1_session_2");
+$.timeout = $.getdata("qd1_timeout") ? $.getdata("qd1_timeout") : 20;
 
 if (!$.taskId) {
   $.log("⚠️任务1信息不全!");
