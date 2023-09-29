@@ -1,0 +1,72 @@
+{
+  "id": "adek.app.sub",
+  "name": " 自用订阅",
+  "description": "@adek",
+  "author": "@adek",
+  "icon": "https://avatars.githubusercontent.com/u/92009557",
+  "repo": "https://github.com/fangshaok/rule",
+  "apps": [
+    {
+      "id": "qidian1",
+      "name": "起点读书1",
+      "keys": [
+        "qd_session",
+        "qd_session_2",
+        "qd_taskId",
+        "qd_taskId_2",
+        "qd_timeout"
+      ],
+      "desc": "",
+      "settings": [
+        {
+          "id": "qd_session",
+          "name": "qd_session",
+          "val": "",
+          "type": "text",
+          "placeholder": "",
+          "desc": ""
+        },
+        {
+          "id": "qd_session_2",
+          "name": "qd_session_2",
+          "val": "",
+          "type": "text",
+          "placeholder": "",
+          "desc": ""
+        },
+        {
+          "id": "qd_taskId",
+          "name": "qd_taskId",
+          "val": "",
+          "type": "text",
+          "placeholder": "",
+          "desc": ""
+        },
+        {
+          "id": "qd_taskId_2",
+          "name": "qd_taskId_2",
+          "val": "",
+          "type": "text",
+          "placeholder": "",
+          "desc": ""
+        },
+        {
+          "id": "qd_timeout",
+          "name": "间隔时间",
+          "val": 20,
+          "type": "number",
+          "placeholder": "",
+          "desc": "默认间隔20s"
+        }
+      ],
+      "script": "https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian.js",
+      "author": "@adek",
+      "repo": "https://github.com/mcdashenghttps://github.com/fangshaok/rule",
+      "icons": [
+        "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/qidian.png",
+        "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/qidian.png"
+      ]
+    }
+   
+  ]
+}
